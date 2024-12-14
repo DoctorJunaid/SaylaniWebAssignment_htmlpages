@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.weather-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.weather-table th,
+.weather-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    
+}
+
+.weather-table th {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+}
+
+
+.weather-table tr:hover {
+    background-color: #d1e7fd;
+    transform: scale(1.2);
+}
+.weather-table tr{
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+}
+.weather-table tr td:nth-child(2) {
+        font-weight: bold;
+ }
+table tr:nth-child(even){
+    background-color: rgb(199, 196, 196);
+}
+button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    background-color:#3498db;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    margin: 25px;
+    border: none;
+}
+button:hover {
+    transform: scale(1.4);
+    box-shadow: 10px 8px 15px #3498db;
+  }
+  button p{
+    background-color: #3498db;
+  }
+  a{
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+  }

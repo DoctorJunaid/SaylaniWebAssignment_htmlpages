@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #0aaa08;
+    margin-bottom: 50px;
+}
+
+table.league-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+}
+
+table.league-table th {
+    background-color: #0aa30a;  
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+table.league-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;  
+}
+
+table.league-table tr:hover {
+    background-color: #e4dede; 
+}
+button{
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(8, 255, 49);
+    
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    margin: 25px;
+    border: none;
+}
+button:hover {
+    transform: scale(1.4);
+    box-shadow: 10px 8px 15px rgba(14, 245, 41, 0.841);
+  }
+  button p{
+    background-color: rgb(26, 255, 0);
+  }
+  a{
+    text-decoration: none;
+    background-color: rgb(26, 255, 0);
+    color: white;
+  }

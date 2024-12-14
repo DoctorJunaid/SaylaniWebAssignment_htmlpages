@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #f4f4f9;
+}
+.container{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: rgb(130, 130, 241);
+    margin-bottom: 30%;
+    margin-top: 5%;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 15px; 
+}
+label {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 5px;
+}
+input, select, textarea {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+textarea {
+    resize: vertical;
+}
+.f-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.f-container .lable {
+    flex: 1;
+}
+.f-container input, .f-container select {
+    flex: 2;
+}
+.formbold-img {
+    width: 100%; /* Ensure SVG takes full width of its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any space below the SVG */
+    margin-bottom: 20px; /* Add space between the SVG and form */
+}
+button {
+    padding: 20px 100px;
+    font-size: 1.2em;
+    background-color: rgb(73, 73, 237);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    transform: scale(1.4);
+    box-shadow: 10px 8px 15px rgb(50, 50, 200);
+    background-color: rgb(50, 50, 200);
+}
+input[type="file"] {
+    padding: 40px;
+    border: none;
+}
+h1{
+    text-align: center;
+    font-family: serif;
+    padding: 40px;
+    background-color: rgb(50, 50, 200);
+}
+#home{
+    padding: 1.5em;
+    border-radius: 10px;
+    width: 100px;
+    border-radius: 20%;
+    border: none;
+    margin: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    font-weight: bold;
+
+    
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
